@@ -280,4 +280,8 @@ footer {
         margin: 8px auto;
         padding: 0px;
     }
+
+    .cta img {
+        display: none;
+    }
 }
