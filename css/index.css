@@ -285,3 +285,59 @@ footer {
         display: none;
     }
 }
+
+@media (max-width:500px) {
+    body .container {
+        width: 100%;
+        margin: 0px 20px;
+        padding: 0px;
+    }
+
+    header .header-box {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    
+    }
+
+    .header-box nav {
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+     .header-box nav a {
+        padding: 20px 0;
+        border-bottom: 1px solid black;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    } 
+
+    .logo {
+        /* border: 1px solid black;         */
+    }
+
+    body .main-content .top-content{
+        flex-flow: column nowrap;
+    }
+
+    body .main-content .bottom-content {
+        flex-flow: column nowrap;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    #top-nav-mobile-view {
+        border-top: 1px solid black;
+    }
+
+
+
+}
+
