@@ -176,9 +176,6 @@ body .contact {
 	margin-bottom: 30px;
 }
 
-/* .contact h4, p {
-	height: 45px;
-} */
 
 /* footer */
 
@@ -204,6 +201,7 @@ body .services {
 body .services h2 {
 	font-size: 25px;
 }
+
 
 body .main-container {
 	display: flex;
@@ -261,14 +259,14 @@ footer {
 	margin: 10px;
 }
 
+/* Responsive CSS - Tablet */
+
 @media (max-width:800px) {
     .header-box img {
         width: 125px;
         order: -1;
+        margin-bottom: 30px;
     }
-}
-
-@media (max-width:800px) {
     .header-box nav {
         width: 400px;
         font-size: 15px;
@@ -284,7 +282,13 @@ footer {
     .cta img {
         display: none;
     }
+
+  .main-container {
+      width: 100%;
+  }
 }
+
+/* Responsive CSS - Mobile */
 
 @media (max-width:500px) {
     body .container {
@@ -296,7 +300,6 @@ footer {
         display: flex;
         flex-flow: column wrap;
         width: 100%;
-    
     }
 
     .header-box nav {
