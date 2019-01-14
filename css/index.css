@@ -80,6 +80,14 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 30px;
 }
 
+@media (max-width:800px) {
+    .header-box {
+        width: 100%;
+        flex-flow: column wrap;
+        margin: 8px;
+    }
+}
+
 .header-box nav a {
 	color: gray;
 	text-decoration: none;
@@ -91,6 +99,8 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;	
 }
+
+
 
 /* CTA box */
 
@@ -242,9 +252,6 @@ body .bottom .facts, img, ul {
 	width: 50%;
 }
 
-body .bottom .facts h5, p ul {
-	margin: 20px;
-}
 
 footer {
 	text-align: center;
@@ -254,3 +261,23 @@ footer {
 	margin: 10px;
 }
 
+@media (max-width:800px) {
+    .header-box img {
+        width: 125px;
+        order: -1;
+    }
+}
+
+@media (max-width:800px) {
+    .header-box nav {
+        width: 400px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    body .bottom .facts, img, ul {
+        margin: 8px auto;
+        padding: 0px;
+    }
+}
